@@ -42,7 +42,7 @@ public class QuickStart {
 			
 		int num = q.doGetNum("http://del.chinaz.com/?p=0&ds[]=1&sort=1&suffix[]=com&dt=1&date=1&pagesize=30");
 		
-		for (int i = 0; i < 1000; i++) {
+		for (int i = 0; i < 500; i++) {
 			q.doGet(url, param, i);
 			System.out.println();
 		}
