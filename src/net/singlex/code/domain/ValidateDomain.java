@@ -75,7 +75,13 @@ public class ValidateDomain{
 		return flag;
 	}
 	
-	//
+	/**
+	 * 调用万网另一个API查询
+	 * @param uri
+	 * @return
+	 * @throws ClientProtocolException
+	 * @throws IOException
+	 */
 	public boolean isAvailFromNet(String uri) throws ClientProtocolException, IOException{
 		httpClient = HttpClients.createDefault();
 
